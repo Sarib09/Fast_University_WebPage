@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        p, table {
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+        }
+        .cv-container {
+            position: relative;
+        }
+        .cv-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+        .cv-content {
+            max-width: 80%;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-top: 40px;
+            border-bottom: 2px solid white;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>About Us</h1>
+
+    <!-- CV Section -->
+    <div class="cv-container">
+        <h2 class="section-title">CV</h2>
+
+        <!-- Passport size image -->
+        <a href="large-picture.html" target="_blank">
+            <img src="image.jpg" alt="Passport Size Picture" class="cv-img">
+        </a>
+        
+
+        <div class="cv-content">
+            <h3>Personal Information</h3>
+            <table>
+                <tr>
+                    <td><strong>Name:</strong></td>
+                    <td>Sarib Aftab</td>
+                </tr>
+                <tr>
+                    <td><strong>Email:</strong></td>
+                    <td>sarib.aftab09@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td><strong>Phone:</strong></td>
+                    <td>+92 317  0422240</td>
+                </tr>
+                <tr>
+                    <td><strong>Address:</strong></td>
+                    <td>Islamabad, Pakistan</td>
+                </tr>
+            </table>
+
+            <h3>Education</h3>
+            <table>
+                <tr>
+                    <td><strong>Bachelor's in Cyber Security</strong></td>
+                    <td>NUCES Islamabad, Pakistan</td>
+                    <td>2020 - 2024</td>
+                </tr>
+                <tr>
+                    <td><strong>A-Levels</strong></td>
+                    <td>Supernova College Islamabad</td>
+                    <td>2018 - 2020</td>
+                </tr>
+                <tr>
+                    <td><strong>O Levels</strong></td>
+                    <td>Roots International School </td>
+                    <td>2017 - 2018</td>
+                </tr>
+            </table>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Cyber Security (Wazuh, Suricata, Incident Response)</li>
+                <li>Malware Analysis</li>
+                <li>Quantum Cryptography</li>
+            </ul>
+
+            <h3>Experience</h3>
+            <table>
+                <tr>
+                    <td><strong>Intern - SOC Analyst</strong></td>
+                    <td>ITSOLERA PVT LTD, 2024</td>
+                </tr>
+                <tr>
+                    <td><strong>Intern - Cyber Security Analyst</strong></td>
+                    <td>CFSS, 2024</td>
+                </tr>
+            </table>
+
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>Q-Sec Project:</strong> Development of a chat application using quantum cryptography simulation.</li>
+                <li><strong>Wazuh Integration:</strong> Installed and configured Wazuh for SIEM solutions with pfSense and Suricata.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- Link back to the home page -->
+    <p><a href="first_page.html" style="color: lightblue;">Go back to the Home Page</a></p>
+
+</body>
+</html>
+
+
+

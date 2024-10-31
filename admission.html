@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission - FAST University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://nu.edu.pk/Content/images/NU-logo.jpg" alt="FAST University Logo" class="logo">
+        <img src="https://nu.edu.pk/Content/images/FAST.png" alt="FAST University Logo 2" class="logo2">
+        <h1>FAST University</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h2>Admission Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="program">Program Applied For:</label>
+            <select id="program" name="program" required>
+                <option value="computer-science">Computer Science</option>
+                <option value="cyber-security">Cyber Security</option>
+                <option value="ai">AI</option>
+                <option value="software-engineering">Software Engineering</option>
+                <option value="management">Management</option>
+            </select><br><br>
+            
+            <label for="message">Additional Information:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 FAST University</p>
+    </footer>
+</body>
+</html>
